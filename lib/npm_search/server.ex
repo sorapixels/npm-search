@@ -3,6 +3,7 @@ defmodule NpmSearch.Server do
 
   @base_url "https://registry.npmjs.org/"
 
+  plug Corsica, origins: "*"
   plug :match
   plug :dispatch
 

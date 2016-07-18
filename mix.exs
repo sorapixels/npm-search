@@ -19,6 +19,7 @@ defmodule NpmSearch.Mixfile do
     [{:cowboy, "~> 1.0"},
      {:plug, "~> 1.1"},
      {:httpoison, "~> 0.9"},
-     {:poison, "~> 2.2"}]
+     {:poison, "~> 2.2"},
+     {:corsica, "~> 0.5"}]
   end
 end
